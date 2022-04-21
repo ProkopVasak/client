@@ -1,3 +1,5 @@
+pins.touch_set_mode(TouchTarget.P1, TouchTargetMode.CAPACITIVE)
+pins.touch_set_mode(TouchTarget.P2, TouchTargetMode.CAPACITIVE)
 radio.set_group(69)
 radio.set_transmit_serial_number(True)
 radio.set_transmit_power(7)

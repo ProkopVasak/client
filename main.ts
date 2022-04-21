@@ -1,3 +1,5 @@
+pins.touchSetMode(TouchTarget.P1, TouchTargetMode.Capacitive)
+pins.touchSetMode(TouchTarget.P2, TouchTargetMode.Capacitive)
 radio.setGroup(69)
 radio.setTransmitSerialNumber(true)
 radio.setTransmitPower(7)
